@@ -5,6 +5,7 @@ import Faq from "./sections/Faq.jsx";
 import Contact from "./sections/contact.jsx";
 import Footer from "./sections/Footer.jsx";
 import Daftar from "./sections/Daftar.jsx";
+import Gallery from "./sections/Gallery.jsx";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Header />
       <Beranda />
       <Daftar />
+      <Gallery />
       <About/>
       <Faq />
       <Contact/>

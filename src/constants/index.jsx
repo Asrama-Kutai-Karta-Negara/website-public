@@ -1,4 +1,3 @@
-//done
 export const socials = [
   {
     id: "0",
@@ -262,5 +261,32 @@ export const panduan = [
   },
 ];
 
+export const links = [
+  {
+    id: "0",
+    title: "Fasilitas",
+    icon: <img src="/images/icons/gallery/fasilitas.svg"/>,
+    url: "",
+  },
+  {
+    id: "1",
+    title: "Kegiatan & Aktifitas",
+    icon: <img src="/images/icons/gallery/kegiatan.svg"/>,
+    url: "#",
+  },
+  {
+    id: "2",
+    title: "Hiburan",
+    name: "",
+    icon: <img src="/images/icons/gallery/hiburan.svg"/>,
+    url: "#",
+  },
+];
+
+const urlAPIFE = "http://localhost:3000";
+export const urlAPIBE = "http://localhost:8000";
+export const APIKEY = "881182541952993820593968";
+
 export const daftarAsrama = "http://localhost:3000";
-export const adminAsrama = "http://localhost:3000/login";
+export const adminAsrama = urlAPIFE+"/login";
+export const axiosUrl = urlAPIBE + "/api/v1/public";
